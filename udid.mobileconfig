@@ -22,9 +22,9 @@
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>PayloadUUID</key>
-<string>3C4DC7D2-E475-3385-489C-0BB8D737A657</string>
+<string>6312208c-ca8d-4cc3-a2e8-641b3e3e672a</string>
 <key>PayloadIdentifier</key>
-<string>apt.cydia8.cc.profile-service</string>
+<string>com.Jonny.profile-service</string>
 <key>PayloadDescription</key>
 <string>该描述文件仅用来获取设备UDID！</string>
 <key>PayloadType</key>
