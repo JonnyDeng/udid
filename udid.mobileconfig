@@ -1,36 +1,33 @@
-<!--参考:https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/iPhoneOTAConfiguration/ConfigurationProfileExamples/ConfigurationProfileExamples.html-->
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>PayloadContent</key>
-        <dict>
-            <key>URL</key>
-            <string>https:/codingcc.cn/receive.php</string> <!--接收数据的接口地址-->
-            <key>DeviceAttributes</key>
+<dict>
+    <key>PayloadContent</key>
+<dict>
+        <key>URL</key>
+        <string>https:/codingcc.cn/receive.php</string>
+     <key>DeviceAttributes</key>
             <array>
-                <string>SERIAL</string>
-                <string>MAC_ADDRESS_EN0</string>
                 <string>UDID</string>
                 <string>IMEI</string>
                 <string>ICCID</string>
                 <string>VERSION</string>
                 <string>PRODUCT</string>
             </array>
-        </dict>
-        <key>PayloadOrganization</key>
-        <string>com.Jonny.weilong</string>  <!--组织名称-->
-        <key>PayloadDisplayName</key>
-        <string>查询设备UDID</string>  <!--安装时显示的标题-->
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>PayloadUUID</key>
-        <string>6312208c-ca8d-4cc3-a2e8-641b3e3e672a</string>  <!--自己随机填写的唯一字符串-->
-        <key>PayloadIdentifier</key>
-        <string>com.Jonny.profile-service</string>
-        <key>PayloadDescription</key>
-        <string>本文件仅用来获取设备ID</string>   <!--描述-->
-        <key>PayloadType</key>
-        <string>Profile Service</string>
-    </dict>
+</dict>
+<key>PayloadOrganization</key>
+<string>UDID</string>
+<key>PayloadDisplayName</key>
+<string>获取设备UDID</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>PayloadUUID</key>
+<string>3C4DC7D2-E475-3385-489C-0BB8D737A657</string>
+<key>PayloadIdentifier</key>
+<string>apt.cydia8.cc.profile-service</string>
+<key>PayloadDescription</key>
+<string>该描述文件仅用来获取设备UDID！</string>
+<key>PayloadType</key>
+<string>Profile Service</string>
+</dict>
 </plist>
