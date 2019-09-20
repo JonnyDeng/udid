@@ -6,7 +6,7 @@
         <key>PayloadContent</key>
         <dict>
             <key>URL</key>
-            <string>http://192.168.1.3:8101/web/UDIDAction</string> <!--接收数据的接口地址-->
+            <string>https:/codingcc.cn/receive.php</string> <!--接收数据的接口地址-->
             <key>DeviceAttributes</key>
             <array>
                 <string>SERIAL</string>
@@ -25,9 +25,9 @@
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
-        <string>7803adde-eba2-44ed-8111-b19cbc23111e</string>  <!--自己随机填写的唯一字符串-->
+        <string>6312208c-ca8d-4cc3-a2e8-641b3e3e672a</string>  <!--自己随机填写的唯一字符串-->
         <key>PayloadIdentifier</key>
-        <string>com.Jonny.weilong.profile-service</string>
+        <string>com.Jonny.profile-service</string>
         <key>PayloadDescription</key>
         <string>本文件仅用来获取设备ID</string>   <!--描述-->
         <key>PayloadType</key>
